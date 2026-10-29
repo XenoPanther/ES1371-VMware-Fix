@@ -1,5 +1,5 @@
 # ES1371-VMware-Fix
-Sets the notification timer for the ES1371 Audio Driver for Windows 2000 and Windows XP x86 to 15MS
+Sets the notification timer for the ES1371 Audio Driver for Windows 2000 and Windows XP x86 to 20ms
 
 ## Compatible OSes
 
