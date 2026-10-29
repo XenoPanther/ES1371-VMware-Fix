@@ -10,3 +10,43 @@ Sets the notification timer for the ES1371 Audio Driver for Windows 2000 and Win
 |Windows XP Service Pack 1|❓
 |Windows XP Service Pack 2|❓
 |Windows XP Service Pack 3|✅
+
+## Installation
+
+### Windows 2000
+1. Right click **"My Computer"** and click manage
+2. Click **"Device Manager"**
+3. Expand **"Sound, video and game controllers"** and double click on **"Creative AudioPCI (ES1371,ES1373) (WDM)"**
+4. Click the Driver tab
+5. Click **"Update Driver"**
+6. Click **"Display a list of known drivers for this device"**
+9. Click **"Has Disk..."**
+10. Click **"Browse"**
+11. Locate **"wdma_ens.inf"** and double click on the file
+12. Click **"OK"**
+13. Click **"Next"** 
+14. Click **"Next"** again
+14. Windows will say that the device does not contain a Microsoft digital signature, click **"Yes"**
+15. Click finish
+16. Click close
+17. Reboot your machine
+    
+### Windows XP
+
+1. Right click **"My Computer"** and click manage
+2. Click **"Device Manager"**
+3. Expand **"Sound, video and game controllers"** and double click on **"Creative AudioPCI (ES1371,ES1373) (WDM)"**
+4. Click the Driver tab
+5. Click **"Update Driver"**
+6. Click **"No, not this time"** when asked if Windows can connect to Windows Update
+7. Click **"Install from a list or specific location"**
+8. Click **"Don't search"**
+9. Click **"Has Disk..."**
+10. Click **"Browse"**
+11. Locate **"wdma_ens.inf"** and double click on the file
+12. Click **"OK"**
+13. Click **"Next"**
+14. Windows will say that the device has not passed Windows Logo testing, click **"Continue Anyway"**
+15. Click finish
+16. Click close
+17. Reboot your machine
