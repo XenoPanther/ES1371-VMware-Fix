@@ -1,5 +1,6 @@
 # ES1371-VMware-Fix
-Sets the notification timer for the ES1371 Audio Driver for Windows 2000 and Windows XP x86 to 20ms
+This modified ES1371 driver reduces the chances of hearing popping/crackling on Windows 2000/XP when installed in VMware without requiring the user to modify their host registry to enable GlobalTimerResolutionRequests. 
+The mod does this by forcing the driver to use a notification timer of 20ms
 
 ## Compatible OSes
 
